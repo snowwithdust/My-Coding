@@ -1,3 +1,7 @@
+'''
+利用python的第三方库PyAudio实现录音然后进行傅里叶变换得到频谱图
+'''
+
 import wave
 import pyaudio
 import numpy
