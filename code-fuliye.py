@@ -73,7 +73,7 @@ for x in np.arange(-T/2,T/2,1e-7):
     s = 0
     for n in range(N):
         s = s + a[n]*np.cos(n*w*x) + b[n]*np.sin(n*w*x)
-	#计算傅里叶变换的函数值
+	#计算傅里叶级数的函数值
     ys.append(s)
 
 def f2(x):
